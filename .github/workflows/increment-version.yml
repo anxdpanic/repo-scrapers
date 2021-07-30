@@ -10,7 +10,7 @@ on:
 
 jobs:
   default:
-    if: github.repository == 'xbmc/repo-scrapers'
+    if: github.repository == 'anxdpanic/repo-scrapers'
     runs-on: ubuntu-latest
     name: Increment version of updated languages
 
