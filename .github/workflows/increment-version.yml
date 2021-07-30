@@ -2,7 +2,7 @@ name: Increment version of updated languages
 
 on:
   push:
-    branches: [ leia ]
+    branches: [ leia, test ]
     paths:
       - '**metadata.album.universal**resource.language.**strings.po'
       - '**metadata.artists.universal**resource.language.**strings.po'
@@ -36,6 +36,10 @@ jobs:
 
       - name: Get changed files
         uses: trilom/file-changes-action@v1.2.4
+
+      - name: Print changed files.json
+        run: |
+          cat $HOME/files.json
 
       - name: Increment version of updated languages
         run: |
