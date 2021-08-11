@@ -1,4 +1,3 @@
-# Kodi Media Center language file
 # Addon Name: Universal Movie Scraper
 # Addon id: metadata.universal
 # Addon Provider: Olympia, XBMC Foundation
